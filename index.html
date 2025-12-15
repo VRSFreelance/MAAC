@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Graphic Design Course</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="responsive.css"> 
+</head>
+<body>
+<!-- Top Bar -->
+<header class="top-bar py-2">
+  <div class="container d-flex justify-content-between align-items-center">
+    <a href="#" class="logo-link">
+      <img src="images/MAAClogo.png" alt="MAAC Logo" class="logo">
+    </a>
+    <a href="#" class="enquire-btn" data-bs-toggle="modal" data-bs-target="#enquireModal">
+      <img src="images/topbarbtn.png" alt="Enquire Now" class="enquire-img">
+    </a>
+  </div>
+</header>
+
+<!-- hero section 1 -->
+<section class="hero d-flex align-items-center">
+  <div class="container mt-5">
+    <div class="hero-content">
+      <h1>
+        <span class="thin-font">Master</span>
+        <br><span class="highlight-red">Graphic Design</span><br>
+        at <span class="highlight-yellow">₹3,933/Month</span>
+      </h1>
+
+      <div class="divider"></div>
+
+      <h2>
+        <span class="thin-font">Get hired at</span><br>
+        <span class="highlight-yellow">₹30,000/Month*</span>
+      </h2>
+      <p class="note">(* Based on the past 3-year track record)</p>
+
+      <p class="description">
+  Launch your graphic design career with expert-led<br>
+  training at just <b>₹3,933/month</b>.  
+  Build real skills, create a <br>
+  strong portfolio, and land a <b>₹30,000/month*</b> job.
+</p>
+
+      <a href="#" class="cta-btn" data-bs-toggle="modal" data-bs-target="#enquireModal">
+        <img src="images/heroenquirebtn.png" alt="Enquire Now" class="cta-img">
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Roadmap Section 2 -->
+<section class="roadmap-section" id="roadmapdeskview">
+  <div class="roadmap-content text-center">
+    <h2 class="roadmap-title">From Basics to Portfolio:</h2>
+    <h3 class="roadmap-subtitle">Your 3-Month Graphic Design Roadmap</h3>
+    <div class="underline"></div>
+  </div>
+        <div class="row">
+            <div class="col-12 col-md-5 mb-4 d-flex justify-content-center align-items-center">
+                <img src="images/Hologram.png" id="roadmap-image" class="img-fluid rounded-4 shadow-lg" alt="Graphic designer illustration" style="margin-left: 8rem;margin-bottom: 5rem;" >
+            </div>
+            <div class="col-12 col-md-7">
+                <div class="roadmap">
+                    <div class="timeline">
+                        <div class="month-container active">
+                            <div class="month-point active" onclick="toggleMonth(0)"></div>
+                            <div class="month-content active" onclick="toggleMonth(0)">
+                                <div class="month-header">
+                                    <div class="month-number">Month 1:</div>
+                                    <div class="month-title">Foundations of Design & Tools Mastery</div>
+                                </div>
+                                <div class="details-section">
+                                  <!-- What You'll Learn -->
+                                  <div class="detail-card">
+                                    <div class="detail-title">
+                                      <span class="icon"></span>
+                                      What You'll Learn:
+                                    </div>
+                                    <div class="detail-list row">
+                                      <div class="col-6 detail-item">
+                                        <img src="images/tlineicon1.png" alt="Colour Theory">
+                                        <p>Core Design Skills:
+                                        <br>
+                                          color, typography, layout</p>
+                                      </div>
+                                       <div class="col-6 detail-item">
+                                        <img src="images/tlineicon2.png" alt="Colour Theory">
+                                        <p>Visual Asset Creation:
+
+                                        <br>
+                                           social media posts, posters, flyers</p>
+                                      </div>
+                                       <!-- <div class="col-6 detail-item">
+                                        <img src="images/tlineicon1.png" alt="Colour Theory">
+                                        <p>Core Design Skills:
+                                        <br>
+                                          color, typography, layout</p>
+                                      </div>
+                                       <div class="col-6 detail-item">
+                                        <img src="images/tlineicon1.png" alt="Colour Theory">
+                                        <p>Core Design Skills:
+                                        <br>
+                                          color, typography, layout</p>
+                                      </div> -->
+                                    </div>
+                                  </div>
+
+                                  <!-- Core Design Skills -->
+                                  <div class="detail-card">
+                                    <div class="detail-title">
+                                      <span class="icon"></span>
+                                      Software You’ll Master:
+                                    </div>
+                                    <div class="detail-list row">
+                                      <div class="col-6 detail-item">
+                                        <img src="images/photoshopicon.png" alt="Colour Theory">
+                                        <p>adobe Photoshop
+                                        
+                                         </p>
+                                      </div>
+                                       <div class="col-6 detail-item">
+                                        <img src="images/illustratoricon.png" alt="Colour Theory">
+                                        <p>adobe Illustrator
+                                        
+                                          </p>
+                                      </div>
+                                       <!-- <div class="col-6 detail-item">
+                                        <img src="images/tlineicon1.png" alt="Colour Theory">
+                                        <p>Core Design Skills:
+                                        <br>
+                                          color, typography, layout</p>
+                                      </div> -->
+                                       <!-- <div class="col-6 detail-item">
+                                        <img src="images/tlineicon1.png" alt="Colour Theory">
+                                        <p>Core Design Skills:
+                                        <br>
+                                          color, typography, layout</p>
+                                      </div> -->
+                                    </div>
+                                  </div>
+                                  <div class="detail-card">
+                                    <div class="detail-title">
+                                      <span class="icon"></span>
+                                      opportunities You’ll Receive
+                                    </div>
+                                    <div class="detail-list row">
+                                      <div class="col-6 detail-item">
+                                        <img src="images/freelanceicon.png" alt="Colour Theory">
+                                        <p>freelance gigs
+                                        
+                                         </p>
+                                      </div>
+                                       <div class="col-6 detail-item">
+                                        <img src="images/internshipicon.png" alt="Colour Theory">
+                                        <p>internship opportunities
+                                        
+                                          </p>
+                                      </div>
+                                       <!-- <div class="col-6 detail-item">
+                                        <img src="images/tlineicon1.png" alt="Colour Theory">
+                                        <p>Core Design Skills:
+                                        <br>
+                                          color, typography, layout</p>
+                                      </div> -->
+                                       <!-- <div class="col-6 detail-item">
+                                        <img src="images/tlineicon1.png" alt="Colour Theory">
+                                        <p>Core Design Skills:
+                                        <br>
+                                          color, typography, layout</p>
+                                      </div> -->
+                                    </div>
+                                  </div>
+
+                                <div class="month-expanded">
+                                  <div class="details-section" style="margin-top: 20px;"> 
+                                    <!-- Software You'll Master -->
+                                    <!-- <div class="detail-card">
+                                      <div class="detail-title">
+                                        <span class="icon"></span>
+                                        Software You'll Master:
+                                      </div>
+                                      <div class="detail-list row">
+                                        <div class="col-6 detail-item">
+                                          <img src="images/photoshop-icon.png" alt="Photoshop">
+                                          <p>Adobe Photoshop - Photo editing & digital art</p>
+                                        </div>
+                                        <div class="col-6 detail-item">
+                                          <img src="images/illustrator-icon.png" alt="Illustrator">
+                                          <p>Adobe Illustrator - Vector graphics & logos</p>
+                                        </div>
+                                      </div>
+                                    </div> -->
+
+                                    <!-- Opportunities You'll Receive -->
+                                    <!-- <div class="detail-card">
+                                      <div class="detail-title">
+                                        <span class="icon"></span>
+                                        Opportunities You'll Receive:
+                                      </div>
+                                      <div class="detail-list row">
+                                        <div class="col-6 detail-item">
+                                          <img src="images/freelance-icon.png" alt="Freelance Gigs">
+                                          <p>Freelance gigs for social media</p>
+                                        </div>
+                                        <div class="col-6 detail-item">
+                                          <img src="images/internship-icon.png" alt="Internship">
+                                          <p>Internship opportunities</p>
+                                        </div>
+                                        <div class="col-6 detail-item">
+                                          <img src="images/business-icon.png" alt="Small Business">
+                                          <p>Small business collaborations</p>
+                                        </div>
+                                      </div>
+                                    </div> -->
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="month-container inactive">
+                            <div class="month-point inactive" onclick="toggleMonth(1)"></div>
+                            <!-- <div class="click-hint">Click to expand</div> -->
+                            <div class="month-content collapsed" onclick="toggleMonth(1)">
+                                <div class="month-header">
+                                    <div class="month-number">Month 2:</div>
+                                    <div class="month-title">Creative Projects & Visual Communication</div>
+                                </div>
+                                <div class="detail-card">
+                                    <div class="detail-title">
+                                      <span class="icon"></span>
+                                      What You'll work on:
+                                    </div>
+                                    <div class="detail-list row">
+                                      <div class="col-6 detail-item">
+                                        <img src="images/realprojecticon.png" alt="Colour Theory">
+                                        <p>Real Projects
+                                        
+                                          </p>
+                                      </div>
+                                       <div class="col-6 detail-item">
+                                        <img src="images/brandstoryicon.png" alt="Colour Theory">
+                                        <p>brand storytelling
+                                        
+                                        </p>
+                                      </div>
+                                       <div class="col-6 detail-item">
+                                        <img src="images/layouticon.png" alt="Colour Theory">
+                                        <p>layout Strategy
+                                        </p>
+                                      </div>
+                                       <!-- <div class="col-6 detail-item">
+                                        <img src="images/tlineicon1.png" alt="Colour Theory">
+                                        <p>Core Design Skills:
+                                        <br>
+                                          color, typography, layout</p>
+                                      </div> -->
+                                    </div>
+                                  </div>
+                                <div class="month-expanded">
+                                    <div class="details-section" style="margin-top: 20px;">
+                                        <div class="detail-card">
+                                    <div class="detail-title">
+                                      <span class="icon"></span>
+                                      What You'll build:
+                                    </div>
+                                    <div class="detail-list row">
+                                      <div class="col-6 detail-item">
+                                        <img src="images/portfolioicon.png" alt="Colour Theory">
+                                        <p>A professional portfolio
+                                        
+                                          </p>
+                                      </div>
+                                       <div class="col-6 detail-item">
+                                        <img src="images/handsonicon.png" alt="Colour Theory">
+                                        <p>hand-on project experience
+                                        
+                                        </p>
+                                      </div>
+                                       <!-- <div class="col-6 detail-item">
+                                        <img src="images/tlineicon1.png" alt="Colour Theory">
+                                        <p>layout Strategy
+                                        </p>
+                                      </div> -->
+                                       <!-- <div class="col-6 detail-item">
+                                        <img src="images/tlineicon1.png" alt="Colour Theory">
+                                        <p>Core Design Skills:
+                                        <br>
+                                          color, typography, layout</p>
+                                      </div> -->
+                                    </div>
+                                  </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="month-container inactive">
+                            <div class="month-point inactive" onclick="toggleMonth(2)"></div>
+                            <!-- <div class="click-hint">Click to expand</div> -->
+                            <div class="month-content collapsed" onclick="toggleMonth(2)">
+                                <div class="month-header">
+                                    <div class="month-number">Month 3:</div>
+                                    <div class="month-title">Portfolio Building & Job Readiness</div>
+                                </div>
+                                <div class="detail-card">
+                                    <div class="detail-title">
+                                      <span class="icon"></span>
+                                      What You'll focus on:
+                                    </div>
+                                    <div class="detail-list row">
+                                      <div class="col-6 detail-item">
+                                        <img src="images/advanceicon.png" alt="Colour Theory">
+                                        <p>advanced design projects
+                                        
+                                          </p>
+                                      </div>
+                                       <div class="col-6 detail-item">
+                                        <img src="images/portfoliopresenticon.png" alt="Colour Theory">
+                                        <p>portfolio presentation
+                                        
+                                        </p>
+                                      </div>
+                                       <div class="col-6 detail-item">
+                                        <img src="images/feedbackicon.png" alt="Colour Theory">
+                                        <p>feedback from industry mentors
+                                        </p>
+                                      </div>
+                                      <div class="detail-card">
+                                    <div class="detail-title">
+                                      <span class="icon"></span>
+                                      career support You’ll receive:
+                                    </div>
+                                    <div class="detail-list row">
+                                      <div class="col-6 detail-item">
+                                        <img src="images/portfolioicon.png" alt="Colour Theory">
+                                        <p>resume and portfolio building
+                                      
+                                        
+                                      </p>
+                                      </div>
+                                       <div class="col-6 detail-item">
+                                        <img src="images/mockinterviewicon.png" alt="Colour Theory">
+                                        <p>mock interviews
+                                        
+                                        </p>
+                                      </div>
+                                       <div class="col-6 detail-item">
+                                        <img src="images/placementicon.png" alt="Colour Theory">
+                                        <p>placement assistance
+                                        </p>
+                                      </div>
+                                       <!-- <div class="col-6 detail-item">
+                                        <img src="images/tlineicon1.png" alt="Colour Theory">
+                                        <p>Core Design Skills:
+                                        <br>
+                                          color, typography, layout</p>
+                                      </div> -->
+                                    </div>
+                                  </div>
+                                       <!-- <div class="col-6 detail-item">
+                                        <img src="images/tlineicon1.png" alt="Colour Theory">
+                                        <p>Core Design Skills:
+                                        <br>
+                                          color, typography, layout</p>
+                                      </div> -->
+                                    </div>
+                                  </div>
+                                <!-- <div class="details-section">
+                                    <div class="detail-card">
+                                        <div class="detail-title">
+                                            <span class="icon"></span>
+                                            Portfolio Development:
+                                        </div>
+                                        <ul class="detail-list">
+                                            <li>Professional presentation</li>
+                                            <li>Case study creation</li>
+                                            <li>Online portfolio setup</li>
+                                            <li>Personal branding</li>
+                                        </ul>
+                                    </div>
+                                    <div class="detail-card">
+                                        <div class="detail-title">
+                                            <span class="icon"></span>
+                                            Career Preparation:
+                                        </div>
+                                        <ul class="detail-list">
+                                            <li>Freelancing basics</li>
+                                            <li>Client acquisition</li>
+                                            <li>Pricing strategies</li>
+                                            <li>Interview skills</li>
+                                        </ul>
+                                    </div> -->
+                                <!-- </div> -->
+                                <div class="month-expanded">
+                                    <div class="details-section" style="margin-top: 20px;">
+                                        <!-- <div class="detail-card">
+                                            <div class="detail-title">
+                                                <span class="icon"></span>
+                                                Final Projects:
+                                            </div>
+                                            <ul class="detail-list">
+                                                <li>Complete brand redesign</li>
+                                                <li>Multi-platform campaign</li>
+                                                <li>Print & digital integration</li>
+                                            </ul>
+                                        </div>
+                                        <div class="detail-card">
+                                            <div class="detail-title">
+                                                <span class="icon"></span>
+                                                Job Opportunities:
+                                            </div>
+                                            <ul class="detail-list">
+                                                <li>Junior designer positions</li>
+                                                <li>Freelance graphic design</li>
+                                                <li>Creative agency internships</li>
+                                            </ul>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!-- Bottom Text + Image Button -->
+    <div class="roadmap-footer">
+      <p>Take the first step toward a rewarding design career</p>
+      <a href="#" data-bs-toggle="modal" data-bs-target="#enquireModal">
+        <img src="images/enrollnowbtn.png" alt="Enquire Now Button" class="enquire-btn">
+      </a>
+    </div>
+</section>
+
+
+<section id="roadmapmobileview">
+    <section class="mobileroadmap-section">
+    <div class="mobileroadmap-heading">
+      <h1>FROM BASICS TO PORTFOLIO:</h1>
+      <h2>Your 3-Month Roadmap</h2>
+    </div>
+
+    <!-- Month 1 -->
+    <div class="mobileroadmap-slide active" id="mobileroadmap-month1">
+      <div class="mobileroadmap-content">
+        <div class="mobileroadmap-left">
+          <img src="images/Hologram.png" alt="Month 1 Image">
+        </div>
+        <div class="mobileroadmap-right">
+          <h3>Month 1: 
+            <br>
+            <span class="mobileroadmap-yellow">Foundations of Design & Tools Mastery</span></h3>
+            <!-- Section Heading -->
+            <div class="mobileroadmap-iconheading">
+              <img src="images/rightarrowicon.png" alt="">
+              <h4>What You’ll Learn</h4>
+            </div>
+
+            <!-- Roadmap Row -->
+            <div class="mobileroadmap-row">
+              <!-- Column 1 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <img src="images/tlineicon1.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>Core Design Skills:<br>colour, typography, layout</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column 2 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <img src="images/tlineicon2.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>Visual Asset creation:<br>social media posts, posters, flyers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Section Heading -->
+            <div class="mobileroadmap-iconheading">
+              <img src="images/rightarrowicon.png" alt="">
+              <h4>Software You’ll master</h4>
+            </div>
+
+            <!-- Roadmap Row -->
+            <div class="mobileroadmap-row">
+              <!-- Column 1 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <img src="images/photoshopicon.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>adobe Photoshop</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column 2 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <img src="images/illustratoricon.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>adobe Illustrator</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Section Heading -->
+            <div class="mobileroadmap-iconheading">
+              <img src="images/rightarrowicon.png" alt="">
+              <h4>opportunities You’ll receive</h4>
+            </div>
+
+            <!-- Roadmap Row -->
+            <div class="mobileroadmap-row">
+              <!-- Column 1 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <img src="images/freelanceicon.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>freelance gigs</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column 2 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <img src="images/internshipicon.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>internship opportunities</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Month 2 -->
+    <div class="mobileroadmap-slide" id="mobileroadmap-month2">
+      <div class="mobileroadmap-content">
+        <div class="mobileroadmap-left">
+          <img src="images/month2hologram.png" alt="Month 1 Image" style="margin-left: 8rem;" >
+        </div>
+        <div class="mobileroadmap-right">
+          <h3>Month 2: 
+            <br>
+            <span class="mobileroadmap-yellow">creative project and Visual Communication</span></h3>
+            <!-- Section Heading -->
+            <div class="mobileroadmap-iconheading">
+              <img src="images/rightarrowicon.png" alt="">
+              <h4>what You’ll work on</h4>
+            </div>
+
+            <!-- Roadmap Row -->
+            <div class="mobileroadmap-row">
+              <!-- Column 1 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <img src="images/realprojecticon.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>real projects</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column 2 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <img src="images/brandstoryicon.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>brand storytelling</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+                        <!-- Roadmap Row -->
+            <div class="mobileroadmap-row">
+              <!-- Column 1 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <img src="images/layouticon.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>layout Strategy</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column 2 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <!-- <img src="images/tlineicon1.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>brand storytelling</p>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Section Heading -->
+            <div class="mobileroadmap-iconheading">
+              <img src="images/rightarrowicon.png" alt="">
+              <h4>What You’ll Build</h4>
+            </div>
+
+            <!-- Roadmap Row -->
+            <div class="mobileroadmap-row">
+              <!-- Column 1 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <img src="images/portfolioicon.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>A professional Portfolio</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column 2 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <img src="images/handsonicon.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>hand-on projects experience</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Month 3 -->
+    <div class="mobileroadmap-slide" id="mobileroadmap-month3">
+      <div class="mobileroadmap-content">
+       <div class="mobileroadmap-left">
+          <img src="images/month3hologram.png" alt="Month 1 Image"  style="margin-left: 8rem;" >
+        </div>
+        <div class="mobileroadmap-right">
+          <h3>Month 3: 
+            <br>
+            <span class="mobileroadmap-yellow">Portfolio building & job reading</span>
+          </h3>
+            <!-- Section Heading -->
+            <div class="mobileroadmap-iconheading">
+              <img src="images/rightarrowicon.png" alt="">
+              <h4>What You’ll focus on</h4>
+            </div>
+
+            <!-- Roadmap Row -->
+            <div class="mobileroadmap-row">
+              <!-- Column 1 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <img src="images/advanceicon.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>Advanced Design Projects</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column 2 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <img src="images/portfoliopresenticon.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>Portfolio presentation</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mobileroadmap-row">
+              <!-- Column 1 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <img src="images/feedbackicon.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>feedback from industry mentors</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column 2 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <!-- <img src="images/tlineicon1.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>Portfolio presentation</p>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Section Heading -->
+            <div class="mobileroadmap-iconheading">
+              <img src="images/rightarrowicon.png" alt="">
+              <h4>career support You’ll receive</h4>
+            </div>
+
+            <!-- Roadmap Row -->
+            <div class="mobileroadmap-row">
+              <!-- Column 1 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <img src="images/portfolioicon.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>resume and portfolio building</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column 2 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <img src="images/mockinterviewicon.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>mock Interviews</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <!-- Roadmap Row -->
+            <div class="mobileroadmap-row">
+              <!-- Column 1 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item">
+                  <img src="images/placementicon.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>placement assistance</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column 2 -->
+              <div class="mobileroadmap-col-6">
+                <div class="mobileroadmap-item"> 
+                  <!-- <img src="images/tlineicon1.png" alt="">
+                  <div class="mobileroadmap-text">
+                    <p>mock Interview</p>
+                  </div>-->
+                </div>
+              </div>
+            </div>
+            
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="mobileroadmap-nav">
+      <img src="images/leftslideicon.png" id="mobileroadmap-prev" alt="Prev">
+      <img src="images/rightslideicon.png" id="mobileroadmap-next" alt="Next">
+    </div>
+
+    <!-- Footer CTA -->
+    <div class="mobileroadmap-footer">
+      <p>Take the first step toward a rewarding design career</p>
+      <a href="#" class="shine-btn" data-bs-toggle="modal" data-bs-target="#enquireModal">
+        <img src="images/shinepagebtn.png" alt="Apply Now">
+      </a>
+    </div>
+  </section>
+</section>
+<!-- about section  -->
+ 
+<!-- about section  -->
+ <section class="about-section">
+  <div class="about-overlay">
+    <!-- Headings -->
+    <div class="about-header">
+      <h2 class="about-title">ABOUT</h2>
+      <h3 class="about-subtitle">MAAC Acadamy</h3>
+      <div class="underline"></div>
+    </div>
+     <p class="about-description">
+      At MAAC, with over 20 years of experience, we don’t just teach design — we prepare you for the real
+      <br> world of creative careers with industry-standard training and career-focused support:
+    </p>
+
+    <!-- 4 Images Grid -->
+    <div class="about-grid">
+      <img src="images/aboutcard1.png" alt="About 1">
+      <img src="images/aboutcard2.png" alt="About 2">
+      <img src="images/aboutcard3.png" alt="About 3">
+      <img src="images/aboutcard4.png" alt="About 4">
+    </div>
+
+    <!-- Bottom text + button -->
+    <div class="about-bottom">
+      <p class="bottom-text">Start Learning — Your First Class Is on Us</p>
+      <img src="images/aboutbtn.png" alt="Learn More" class="button-image" data-bs-toggle="modal" data-bs-target="#enquireModal">
+    </div>
+  </div>
+</section>
+
+<!-- how section  -->
+ 
+<!-- <section class="how-section"> -->
+  <!-- Headings -->
+  <!-- <div class="how-section-heading">
+    <h2>How</h2>
+    <h3>
+MAAC Helped Launch Their Careers</h3>
+    <div class="underline"></div>
+    <p>
+      Our alumni don’t just complete the course — they launch thriving creative careers. With strong placement records, real-world outcomes, and a supportive alumni network, your journey from classroom to career is well within reach.
+    </p>
+  </div> -->
+
+  <section class="how-container">
+    <!-- Headings + underline + paragraph -->
+    <h2>HOW</h2>
+    <h3>MAAC Helped Launch Their Careers</h3>
+    <div class="underline"></div>
+    <p class="intro">
+      Our alumni don’t just complete the course — they launch thriving creative careers. With strong placement records, real-world outcomes, and a supportive alumni network, your journey from classroom to career is well within reach.
+    </p>
+
+    <!-- Timeline (Desktop) -->
+    <div class="htline-desktop">
+      <div class="htline">
+        <div class="htline-item">
+          <div class="htline-dot"></div>
+          <!-- BELOW line -->
+          <img src="images/howleftimg.png" alt="Image 1">
+        </div>
+        <div class="htline-item">
+          <div class="htline-dot"></div>
+          <!-- ABOVE line -->
+          <img src="images/howmiddleimg.png" alt="Image 2">
+        </div>
+        <div class="htline-item">
+          <div class="htline-dot"></div>
+          <!-- BELOW line -->
+          <img src="images/howrightimg.png" alt="Image 3">
+        </div>
+      </div>
+    </div>
+
+    <!-- Timeline (Mobile single image) -->
+    <div class="htline-mobile">
+      <img src="images/hlinemblversion.png" alt="Timeline Combined">
+    </div>
+
+    <!-- Video Slider (6 YouTube videos) -->
+    <div class="video-slider">
+      <button id="prevBtn" aria-label="Previous videos"><i class="bi bi-chevron-left"></i></button>
+      <div class="video-wrapper">
+        <div id="videoTrack">
+          <iframe src="https://www.youtube.com/embed/ysz5S6PUM-U" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/JGwWNGJdvx8" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/LXb3EKWsInQ" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/e-ORhEE9VVg" allowfullscreen></iframe>
+        </div>
+      </div>
+      <button id="nextBtn" aria-label="Next videos"><i class="bi bi-chevron-right"></i></button>
+    </div>
+
+    <!-- Bottom text + image button -->
+    <p class="bottom-text">Their journey can be yours, explore our student success stories.</p>
+    <a class="btn-image" href="#" data-bs-toggle="modal" data-bs-target="#enquireModal">
+      <img src="images/howpagexplrebtn.png" alt="Explore Button">
+    </a>
+  </section>
+
+  <!-- Video carousel -->
+  <!-- <div class="video-carousel">
+    <button class="carousel-btn left" onclick="scrollVideos(-1)">‹</button>
+    <div class="video-container" id="videoContainer">
+      <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+      <iframe src="https://www.youtube.com/embed/ysz5S6PUM-U"></iframe>
+      <iframe src="https://www.youtube.com/embed/oUFJJNQGwhk"></iframe>
+      <iframe src="https://www.youtube.com/embed/aqz-KE-bpKQ"></iframe>
+      <iframe src="https://www.youtube.com/embed/e-ORhEE9VVg"></iframe>
+      <iframe src="https://www.youtube.com/embed/kXYiU_JCYtU"></iframe>
+    </div>
+    <button class="carousel-btn right" onclick="scrollVideos(1)">›</button>
+  </div> -->
+
+  <!-- Bottom text and button -->
+  <!-- <div class="bottom-text">Their journey can be yours, explore our student success stories.</div>
+  <div class="btn-img">
+    <img src="images/howpagexplrebtn.png" alt="Explore Button">
+  </div>
+</section> -->
+<!-- shine page  -->
+<section class="shinepage">
+  <div class="shine-container">
+    <!-- Left: YouTube Video -->
+    <div class="shine-video">
+      <iframe 
+        src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+        title="YouTube video"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <!-- Right: Text -->
+    <div class="shine-text">
+      <h2>Shine on the Big Stage!</h2>
+      <h3>24FPS Awards Await!</h3>
+      <p>
+       MAAC students consistently shine at the 24FPS <br>
+       International Animation Awards, competing with the <br>best in animation, VFX, and design.
+       <br>With expert mentorship, studio-grade training, and
+       <br> industry-ready projects, you can build a standout, 
+       <br>award-winning portfolio too.
+      <br>
+      <b>
+        <br>
+        Dream big. Create fearlessly.
+        <br>You could be our next 24FPS award winner.</b>
+      </p>
+      <!-- Button Image as Link -->
+      <a href="#" class="shine-btn" data-bs-toggle="modal" data-bs-target="#enquireModal">
+        <img src="images/shinepagebtn.png" alt="Apply Now">
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- final section  -->
+   <!-- final section  -->
+     <section class="final-section">
+    <div class="final-container">
+      <!-- Left Column -->
+      <div class="final-left">
+        <img src="images/finalpagelogo.png" alt="Logo" class="logo">
+
+        <!-- Location 1 -->
+        <div class="location-block">
+          <h3><i class="fas fa-location-dot"></i> MALAD</h3>
+          <p>
+            1st Floor, New Era Talkies Compound,<br>
+            Station Center, Swami Vivekananda Rd,<br>
+            Malad, Signal, Malad West, Mumbai, Maharashtra 400064
+          </p>
+          <div class="phone"><i class="fas fa-phone"></i> 96998 84747</div>
+          <div class="underline"></div>
+        </div>
+
+        <!-- Location 2 -->
+        <div class="location-block">
+          <h3><i class="fas fa-location-dot"></i> MIRA ROAD</h3>
+          <p>
+            2nd floor, Ritu Horizon, Commercial wing, Kanakia Rd,<br>
+            Above Bank of Baroda, opp. Star Bazaar, Chandan Shanti,<br>
+            Mira Road East, Mira Bhayandar, Maharashtra 401107
+          </p>
+          <div class="phone"><i class="fas fa-phone"></i> 99871 87844</div>
+          <div class="underline"></div>
+        </div>
+
+        <!-- Location 3 -->
+        <div class="location-block">
+          <h3><i class="fas fa-location-dot"></i> SAKI NAKA</h3>
+          <p>
+            505/506/507, B Sagartech Plaza, Sakinaka Metro Junction,<br>
+            Sakinaka Andheri East, Near Sakinaka Metro Junction,<br>
+            Safed Pul, Saki Naka, Mumbai, Maharashtra 400072
+          </p>
+          <div class="phone"><i class="fas fa-phone"></i> 77770 23072</div>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="final-right">
+        <!-- Social Links -->
+        <!--<div class="social-links">-->
+        <!--  <a href="#"><i class="fab fa-x-twitter"></i></a>-->
+        <!--  <a href="#"><i class="fab fa-instagram"></i></a>-->
+        <!--  <a href="#"><i class="fab fa-facebook-f"></i></a>-->
+        <!--  <a href="#"><i class="fab fa-linkedin-in"></i></a>-->
+        <!--</div>-->
+
+        <div class="form-wrapper">
+          <img src="images/contactformbg.png" alt="Form Background" class="form-bg">
+
+          <div class="form-content">
+            <div class="form-header">
+              <h3>Design Smarter, Earn Bigger</h3>
+              <p>To help you learn without limits,<br>
+we’re offering a brand-new laptop with your<br>
+graphic design course enrollment at no extra cost!</p>
+              <span>(Offer valid till August)*</span>
+            </div>
+
+            <form action="form-handler.php" method="POST">
+              <div class="form-border-div">
+                <input type="text" placeholder="Name" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <textarea placeholder="Your Message..." required></textarea>
+              </div>
+              <a href="#" class="submit-btn">
+                <img src="images/contactsmtbtn.png" alt="Submit Now">
+              </a>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-line">
+      <div class="footer-left">© Copyright</div>
+      <div class="footer-right">Terms</div>
+    </div>
+  </section>
+
+
+<!-- modal window  -->
+<!-- Enquire Modal -->
+<div class="modal fade" id="enquireModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content rounded-4 shadow-lg">
+      
+      <!-- Header -->
+      <div class="modal-header border-0">
+        <h5 class="modal-title">Enquire Now</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <!-- Body -->
+      <div class="modal-body">
+        <form action="form-handler.php" method="POST">
+          <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" placeholder="Enter your name">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="Enter your email">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" rows="3" placeholder="Write your enquiry"></textarea>
+          </div>
+          <button type="submit" class="btn btn-enquire w-100 rounded-pill">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Bootstrap JS Bundle (includes Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+// Images for each month
+const monthImages = [
+  "images/Hologram.png",        // Month 1
+  "images/month2hologram.png",  // Month 2
+  "images/hologram-3.png"   // Month 3
+];
+
+function toggleMonth(index) {
+  const containers = document.querySelectorAll('.month-container');
+  const img = document.getElementById("roadmap-image");
+
+  const selected = containers[index];
+  const isActive = selected.classList.contains("active");
+
+  // Case 1: If it's already active → close it
+  if (isActive) {
+    selected.classList.remove("active");
+    selected.querySelector('.month-content').classList.add('collapsed');
+    selected.querySelector('.month-point').classList.remove('active');
+    selected.querySelector('.month-point').classList.add('inactive');
+
+    // Check if all months are closed
+    const anyOpen = Array.from(containers).some(c => c.classList.contains("active"));
+    if (!anyOpen) {
+      // Reset to Month 1 hologram
+      img.classList.add("fade-out");
+      setTimeout(() => {
+        img.src = monthImages[0]; // default hologram
+        img.classList.remove("fade-out");
+        img.classList.add("fade-in");
+      }, 300);
+      setTimeout(() => {
+        img.classList.remove("fade-in");
+      }, 600);
+    }
+    return;
+  }
+
+  // Case 2: Open the clicked month, close others
+  containers.forEach((container, i) => {
+    container.classList.remove("active");
+    container.classList.add("inactive");
+    container.querySelector('.month-content').classList.add("collapsed");
+
+    const point = container.querySelector('.month-point');
+    point.classList.remove("active");
+    point.classList.add("inactive");
+  });
+
+  selected.classList.add("active");
+  selected.classList.remove("inactive");
+  selected.querySelector('.month-content').classList.remove("collapsed");
+
+  const point = selected.querySelector('.month-point');
+  point.classList.add("active");
+  point.classList.remove("inactive");
+
+  // Fade-out → swap → fade-in
+  img.classList.add("fade-out");
+  setTimeout(() => {
+    img.src = monthImages[index];
+    img.classList.remove("fade-out");
+    img.classList.add("fade-in");
+  }, 300);
+
+  setTimeout(() => {
+    img.classList.remove("fade-in");
+  }, 600);
+
+  // Smooth scroll into view
+  selected.scrollIntoView({ behavior: "smooth", block: "center" });
+}
+
+</script>
+
+<script>
+
+// how section script 
+
+  function scrollVideos(direction) {
+    const container = document.getElementById('videoContainer');
+    const scrollAmount = 320; // adjust for video width + gap
+    container.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+  }
+
+</script>
+<script>
+  let currentIndex = 0;
+  function moveSlide(dir) {
+    const slides = document.querySelector('.slides');
+    const total = document.querySelectorAll('.month-section').length;
+    currentIndex = (currentIndex + dir + total) % total;
+    slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+  }
+</script>
+<script>
+    const mobileroadmapSlides = document.querySelectorAll(".mobileroadmap-slide");
+    let mobileroadmapCurrent = 0;
+
+    function mobileroadmapShowSlide(index) {
+      mobileroadmapSlides.forEach((s, i) => {
+        s.classList.toggle("active", i === index);
+      });
+    }
+
+    document.getElementById("mobileroadmap-next").addEventListener("click", () => {
+      mobileroadmapCurrent = (mobileroadmapCurrent + 1) % mobileroadmapSlides.length;
+      mobileroadmapShowSlide(mobileroadmapCurrent);
+    });
+
+    document.getElementById("mobileroadmap-prev").addEventListener("click", () => {
+      mobileroadmapCurrent = (mobileroadmapCurrent - 1 + mobileroadmapSlides.length) % mobileroadmapSlides.length;
+      mobileroadmapShowSlide(mobileroadmapCurrent);
+    });
+  </script>
+
+  
+</body>
+</html>
